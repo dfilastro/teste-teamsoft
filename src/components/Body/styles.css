@@ -1,0 +1,75 @@
+.c-body {
+  display: flex;
+  padding: 1.5rem 4.125rem;
+  justify-content: space-around;
+  /* justify-content: space-between; */
+  /* height: 41.375rem; */
+  color: var(--grey-900);
+}
+
+.c-body__product {
+  width: 50%;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.c-body__product__c-img {
+  margin: 0 auto;
+}
+/* 
+.c-body__product__c-img__img {
+  max-width: 100%;
+} */
+
+.c-body__product__tittle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 14%;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.c-body__product__description {
+  /* height: 10%; */
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.c-body__product__c-price {
+  height: 5%;
+  font-size: 2rem;
+  color: var(--orange-800);
+}
+
+.c-body__ingredients {
+  width: 35%;
+  border: 1px solid var(--grey-700);
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.c-body__ingredients__c-extras {
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 1rem;
+  background-color: var(--yellow-500);
+  line-height: 1rem;
+}
+
+.c-body__ingredients__c-extras_q {
+  margin-top: 0.3rem;
+  font-size: 0.75rem;
+  color: var(--orange-700);
+}
+
+.c-body__ingredients__cutlery {
+  height: 40px;
+  margin-top: 1.3125rem;
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+  gap: 1rem;
+}

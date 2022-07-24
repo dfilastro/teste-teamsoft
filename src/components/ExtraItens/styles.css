@@ -1,0 +1,32 @@
+.c-item {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+
+  height: 5rem;
+  border-bottom: 1px solid var(--orange-500);
+  margin: 1rem 1rem 1rem 1rem;
+  padding-bottom: 1rem;
+  color: var(--grey-900);
+}
+
+.c-item__igr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.c-item__igr__type {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.c-item__igr__value {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: var(--orange-600);
+}
+
+.c-item__button {
+  margin: auto 0;
+  height: 2rem;
+}

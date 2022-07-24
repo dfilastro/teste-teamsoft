@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+input,
+textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+
+  --grey-100: #f4f4f4;
+  --grey-400: #aeb6c1;
+  --grey-700: #656363;
+  --grey-900: #4e4e4e;
+
+  --yellow-400: #fdd70e;
+  --yellow-500: rgba(253, 215, 14, 0.2);
+
+  --orange-500: #e8a634;
+  --orange-600: #f09035;
+  --orange-700: #e49700;
+  --orange-800: #dc6e05;
+
+  --red-500: #ed3237;
+  --red-700: #d80000;
+}

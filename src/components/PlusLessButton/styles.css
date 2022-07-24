@@ -1,0 +1,26 @@
+.c-box {
+  display: flex;
+  /* height: 2rem; */
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.25rem;
+  align-items: center;
+  margin: auto 0;
+  border: 1px solid var(--orange-600);
+  border-radius: 0.3rem;
+}
+
+.c-box__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--white);
+  border: none;
+  cursor: pointer;
+}
+
+.c-box__number {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
