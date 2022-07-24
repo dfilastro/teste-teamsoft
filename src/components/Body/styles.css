@@ -43,6 +43,8 @@
   height: 5%;
   font-size: 2rem;
   color: var(--orange-800);
+  display: flex;
+  gap: 1rem;
 }
 
 .c-body__ingredients {
@@ -72,4 +74,9 @@
   display: grid;
   grid-template-columns: 4fr 5fr;
   gap: 1rem;
+}
+
+.c-body__product__c-price__old {
+  color: var(--grey-900);
+  text-decoration: line-through;
 }

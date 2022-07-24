@@ -8,12 +8,7 @@ export default function PlusLessButton() {
 
   return (
     <section className='c-box'>
-      <button
-        onClick={() => {
-          count === 0 || setCount(count - 1);
-        }}
-        className='c-box__button'
-      >
+      <button disabled={count < 1} onClick={() => setCount(count - 1)} className='c-box__button'>
         {count === 0 ? (
           <AiOutlineMinus size='1.25rem' color='var(--grey-400)' />
         ) : (
@@ -21,12 +16,7 @@ export default function PlusLessButton() {
         )}
       </button>
       <p className='c-box__number'>{count}</p>
-      <button
-        onClick={() => {
-          count === 8 || setCount(count + 1);
-        }}
-        className='c-box__button'
-      >
+      <button disabled={count > 7} onClick={() => setCount(count + 1)} className='c-box__button'>
         {count === 8 ? (
           <AiOutlinePlus size='1.25rem' color='var(--grey-400)' />
         ) : (

@@ -18,6 +18,7 @@ export function Body() {
         </p>
         <div className='c-body__product__c-price'>
           <p>R$ 32,99</p>
+          <p className='c-body__product__c-price__old'>R$ 34,95</p>
         </div>
       </div>
 
