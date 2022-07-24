@@ -4,6 +4,7 @@ import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 import logoImg from '../../assets/Deliverize.png';
 import arrowImg from '../../assets/keyboard_arrow_down_24px.png';
+import CartBadge from '../CartIcon';
 
 export function Header() {
   return (
@@ -31,7 +32,7 @@ export function Header() {
         </div>
 
         <div className='c-menu__content__checkout'>
-          <AiOutlineShoppingCart size='2rem' color='var(--red-500)' />
+          <CartBadge quantity={2} />
           <p className='c-menu__content__checkout_paragraph'>Carrinho</p>
         </div>
       </div>
