@@ -7,7 +7,7 @@
   padding: 0.25rem;
   align-items: center;
   margin: auto 0;
-  border: 1px solid var(--orange-600);
+  border: 0.0625rem solid var(--orange-600);
   border-radius: 0.3rem;
 }
 

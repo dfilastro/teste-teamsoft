@@ -3,7 +3,7 @@
   grid-template-columns: 7fr 3fr;
 
   height: 5rem;
-  border-bottom: 1px solid var(--orange-500);
+  border-bottom: 0.0625rem solid var(--orange-500);
   margin: 1rem 1rem 1rem 1rem;
   padding-bottom: 1rem;
   color: var(--grey-900);

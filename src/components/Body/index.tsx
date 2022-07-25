@@ -9,7 +9,7 @@ export function Body() {
     <main className='c-body'>
       <div className='c-body__product'>
         <div className='c-body__product__c-img'>
-          <img className='c-body__product__c-img_img' src={hambImg} alt='' />
+          <img className='c-body__product__c-img__img' src={hambImg} alt='' />
         </div>
         <h1 className='c-body__product__tittle'>Oferta Picanha Cheddar Bacon</h1>
         <p className='c-body__product__description'>
@@ -27,7 +27,6 @@ export function Body() {
           <p>Adicionar Ingredientes</p>
           <p className='c-body__ingredients__c-extras_q'>Até 8 ingredientes</p>
         </div>
-
         <ExtraItens description={'Queijo Cheddar'} value={4.99} />
         <ExtraItens description={'Cebola Crispy'} value={1.5} />
         <ExtraItens description={'Molho Cheddar'} value={3.5} />
@@ -36,6 +35,16 @@ export function Body() {
           <p>Precisa de Talher?</p>
         </div>
 
+        <div className='c-body__ingredients__c-extras__cut'>
+          <div className='c-body__ingredients__c-extras__cut__yes'>
+            <p>Sim</p>
+            <input type='radio' name='cutlery' value='Sim' />
+          </div>
+          <div className='c-body__ingredients__c-extras__cut__no'>
+            <p>Não</p>
+            <input type='radio' name='cutlery' value='Não' />
+          </div>
+        </div>
         <div className='c-body__ingredients__cutlery'>
           <PlusLessButton />
           <AddButton />

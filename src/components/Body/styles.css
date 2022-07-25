@@ -18,10 +18,10 @@
 .c-body__product__c-img {
   margin: 0 auto;
 }
-/* 
+
 .c-body__product__c-img__img {
   max-width: 100%;
-} */
+}
 
 .c-body__product__tittle {
   display: flex;
@@ -66,6 +66,28 @@
   margin-top: 0.3rem;
   font-size: 0.75rem;
   color: var(--orange-700);
+}
+
+.c-body__ingredients__c-extras__cut {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input[type='radio'] {
+  size: 2rem;
+}
+
+.c-body__ingredients__c-extras__cut__yes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-body__ingredients__c-extras__cut__no {
+  display: flex;
+  justify-content: space-between;
 }
 
 .c-body__ingredients__cutlery {
