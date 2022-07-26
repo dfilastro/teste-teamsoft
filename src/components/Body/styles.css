@@ -77,7 +77,7 @@
 }
 
 input[type='radio'] {
-  size: 2rem;
+  accent-color: var(--orange-700);
 }
 
 .c-body__ingredients__c-extras__cut__yes {
