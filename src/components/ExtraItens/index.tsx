@@ -1,4 +1,4 @@
-import PlusLessButton from '../PlusLessButton';
+import PlusMinusButton from '../PlusMinusButton';
 import './styles.css';
 
 interface ExtraItemsProps {
@@ -20,7 +20,11 @@ export default function ExtraItens({ description, value }: ExtraItemsProps) {
       </section>
 
       <div className='c-item__button'>
-        <PlusLessButton />
+        <PlusMinusButton
+          onChange={(value) => {
+            console.log(value);
+          }}
+        />
       </div>
     </div>
   );
