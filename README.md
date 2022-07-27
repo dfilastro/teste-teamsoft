@@ -11,7 +11,7 @@
 - [Web Version](#computer-web-version)
 - [Mobile Version](#-mobile-version)
 - [Technologies](#rocket-technologies)
-- [How to Run](#computer-how-to-run)
+- [How to Run](#-how-to-run)
 - [Contributing](#sparkles-contributing)
 - [License](#page_facing_up-license)
 
@@ -31,7 +31,7 @@ This project was made using the follow technologies:
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [Material UI - MUI](https://mui.com/pt/)
 
-# :computer: How to run
+# </> How to run
 
 ```bash
 # Clone Repository
