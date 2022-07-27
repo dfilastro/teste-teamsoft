@@ -20,11 +20,7 @@ export default function ExtraItens({ description, value }: ExtraItemsProps) {
       </section>
 
       <div className='c-item__button'>
-        <PlusMinusButton
-          onChange={(value) => {
-            console.log(value);
-          }}
-        />
+        <PlusMinusButton onChange={(value) => value} />
       </div>
     </div>
   );

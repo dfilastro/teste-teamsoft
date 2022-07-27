@@ -78,30 +78,3 @@ textarea {
     margin: 0 auto;
   }
 }
-
-/* 
-@media (max-width: 376px) {
-  html {
-    font-size: 10%;
-  }
-  
-  .c-body {
-    display: block;
-    width: 100%;
-  }
-  
-  .c-body__product {
-    width: 100%;
-  }
-
-  .c-body__product__c-img {
-    /* width: 100%; */
-/* } */
-
-/* .c-body__product__c-img__img {
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-  } */
-
-/* } */

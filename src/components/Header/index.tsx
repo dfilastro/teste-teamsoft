@@ -25,7 +25,7 @@ export function Header() {
         <div className='c-menu__content__container'>
           <div className='c-menu__content__container__add'>
             <p>Entrega:</p>
-            <p className='c-menu__content__container_add__desc'>R. Prof Paulo Galli, 137</p>
+            <p className='c-menu__content__container__add__desc'>R. Prof Paulo Galli, 137</p>
           </div>
           <img src={arrowDown} alt='' />
         </div>
@@ -38,12 +38,12 @@ export function Header() {
 
         <div className='c-menu__content__checkout'>
           <CgProfile size='2rem' color='var(--red-500)' />
-          <p className='c-menu__content__checkout_paragraph'>Entrar</p>
+          <p className='c-menu__content__checkout__paragraph'>Entrar</p>
         </div>
 
         <div className='c-menu__content__checkout'>
           <CartBadge quantity={qtyProducts} />
-          <p className='c-menu__content__checkout_paragraph'>Carrinho</p>
+          <p className='c-menu__content__checkout__paragraph'>Carrinho</p>
         </div>
       </div>
     </header>

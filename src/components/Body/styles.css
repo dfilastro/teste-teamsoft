@@ -2,8 +2,6 @@
   display: flex;
   padding: 1.5rem 4.125rem;
   justify-content: space-around;
-  /* justify-content: space-between; */
-  /* height: 41.375rem; */
   color: var(--grey-900);
 }
 
@@ -33,7 +31,6 @@
 }
 
 .c-body__product__description {
-  /* height: 10%; */
   font-weight: 400;
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
