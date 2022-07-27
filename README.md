@@ -53,6 +53,6 @@ Go to http://localhost:3000/ to see the result.
 # :page_facing_up: License
 
 This project is under the [MIT license](./LICENSE).
-Made by [Lucas Lauriano](https://www.linkedin.com/in/dfilastro/).
+Made by [Diego Filastro](https://www.linkedin.com/in/dfilastro/).
 
 Thank you! 🌠
