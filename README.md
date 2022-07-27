@@ -18,7 +18,7 @@
 # :computer: Web Version
 ![teamsoft - web versison](https://user-images.githubusercontent.com/90292951/181283243-fb8fc209-c146-4d36-9723-b339d1dd04c2.gif)
 
-# 🥹 Mobile Version
+# 📱 Mobile Version
 ![teamsoft - mobile versison](https://user-images.githubusercontent.com/90292951/181283436-d3e5f8c3-d899-45ba-8a3a-f36094d53188.gif)
 
 # :rocket: Technologies
