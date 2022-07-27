@@ -14,7 +14,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: var(--yellow-500); */
 }
 
 .c-spinner__loading {
