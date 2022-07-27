@@ -1,6 +1,11 @@
 <p align="center">
    :computer: Dashboard developed from scratch. Project developed for the TeamSoft challenge | <a href="https://teamsoft.com.br/">TeamSoft</a>
 </p>
+<div align="center">
+  <sub> Made by
+    <a href="https://github.com/dfilastro">Diego Filastro
+  </sub>
+</div>
 
 # 📌 Contents
 - [Web Version](#computer-web-version)
@@ -15,12 +20,6 @@
 
 # 🥹 Mobile Version
 ![teamsoft - mobile versison](https://user-images.githubusercontent.com/90292951/181283436-d3e5f8c3-d899-45ba-8a3a-f36094d53188.gif)
-
-<div align="center">
-  <sub> Made by
-    <a href="https://github.com/dfilastro">Diego Filastro
-  </sub>
-</div>
 
 # :rocket: Technologies
 
