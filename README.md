@@ -2,18 +2,25 @@
    :computer: Dashboard developed from scratch. Project developed for the TeamSoft challenge | <a href="https://teamsoft.com.br/">TeamSoft</a>
 </p>
 
+# 📌 Contents
+- [Web Version](#computer-web-version)
+- [Mobile Version](#-mobile-version)
+- [Technologies](#rocket-technologies)
+- [How to Run](#computer-how-to-run)
+- [Contributing](#sparkles-contributing)
+- [License](#page_facing_up-license)
+
+# :computer: Web Version
+![teamsoft - web versison](https://user-images.githubusercontent.com/90292951/181283243-fb8fc209-c146-4d36-9723-b339d1dd04c2.gif)
+
+# 🥹 Mobile Version
+![teamsoft - mobile versison](https://user-images.githubusercontent.com/90292951/181283436-d3e5f8c3-d899-45ba-8a3a-f36094d53188.gif)
+
 <div align="center">
   <sub> Made by
     <a href="https://github.com/dfilastro">Diego Filastro
   </sub>
 </div>
-
-# 📌 Contents
-
-- [Technologies](#rocket-technologies)
-- [How to Run](#computer-how-to-run)
-- [Contributing](#sparkles-contributing)
-- [License](#page_facing_up-license)
 
 # :rocket: Technologies
 
