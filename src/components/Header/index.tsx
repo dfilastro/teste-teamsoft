@@ -19,15 +19,19 @@ export function Header() {
 
   return (
     <header className='c-menu'>
-      <img className='c-menu__arrow' src={arrowLeft} />
-      <img className='c-menu__logo' src={logoImg} />
+      <img className='c-menu__arrow' src={arrowLeft} alt='grey arrow pointed to left' />
+      <img
+        className='c-menu__logo'
+        src={logoImg}
+        alt='red and orange logo with a box drawn, written deliverize, needed, ordered, arrived'
+      />
       <div className='c-menu__content'>
         <div className='c-menu__content__container'>
           <div className='c-menu__content__container__add'>
             <p>Entrega:</p>
             <p className='c-menu__content__container__add__desc'>R. Prof Paulo Galli, 137</p>
           </div>
-          <img src={arrowDown} alt='' />
+          <img src={arrowDown} alt='red arrow pointed down' />
         </div>
 
         <input
